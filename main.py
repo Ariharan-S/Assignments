@@ -1,13 +1,11 @@
-num = int(input("Enter the number: "))
-if num >1:
-    for i in range(2, int(num / 2) + 1):
+str ="what we think we become we"
+
+for i in range(len(str)):
+    if(str.startswith("we",i)):
+        print(i)
 
 
-        if (num % i) == 0:
-            print(num, "is not a prime number")
-            break
-    else:
-        print(num, "is a prime number")
 
-else:
-    print(num, "is not a prime number")
+
+
+
